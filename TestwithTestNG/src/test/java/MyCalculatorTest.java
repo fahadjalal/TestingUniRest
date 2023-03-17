@@ -7,7 +7,7 @@ public class MyCalculatorTest {
         int fValue = 20, sValue = 60;
         int expectedValue = fValue + sValue;
         int actualResult = MyCalculator.add(fValue,sValue);
-        int a =10;
+        int a =5;
         Assert.assertEquals(expectedValue,actualResult);
     }
 }
